@@ -11,6 +11,7 @@ page.blocks
 
 @import url(./vendor/normalize.css);
 @import url(./blocks/page/page.css);
+@import url(./blocks/page/page_overlay.css);
 @import url(./blocks/container/container.css);
 
 /* components */
