@@ -69,8 +69,8 @@ page.blocks
 
 /* popup */
 @import url(./blocks/popup/popup.css);
-@import url(./blocks/popup/popup_opened.css);
 @import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/popup_opened.css);
 
 /* media screen */
 @import url(./blocks/media/media.css);
