@@ -47,5 +47,9 @@ page.blocks
 /* section elements */
 @import url(./blocks/elements/elements.css);
 
+/* section footer */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);
+
 /* media screen */
 @import url(./blocks/media/media.css);
