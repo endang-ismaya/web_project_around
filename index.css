@@ -11,3 +11,5 @@ page.blocks
 
 @import url(./vendor/normalize.css);
 @import url(./blocks/page/page.css);
+
+@import url(./blocks/media/media.css);
