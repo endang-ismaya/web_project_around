@@ -43,7 +43,7 @@ section {
 }
 
 body {
-    background: #2a2c2f;
+    background: #000000;
 }
 
 .page {
@@ -51,4 +51,5 @@ body {
     margin: 0 auto;
     font-family: "Inter", sans-serif;
     color: #ffffff;
+    /* border: solid 1px yellowgreen; */
 }
