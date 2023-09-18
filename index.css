@@ -1,0 +1,13 @@
+/*
+page.blocks
+- header
+- main.content
+  - profile
+  - elements
+- footer
+*/
+
+@import url(./vendor/InterWeb/inter.css);
+
+@import url(./vendor/normalize.css);
+@import url(./blocks/page/page.css);

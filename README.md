@@ -24,11 +24,12 @@ Gambar diambil dari <https://unsplash.com/> atau <https://www.pexels.com/>
 
 - HTML
 - CSS
-- JS
+- JavaScript
 
 ## Teknik
 
 - CSS Flex, Grid
 - BEM (Block Element Modifier)
+- DOM (Document Objet Model)
 
 ## Project Link
