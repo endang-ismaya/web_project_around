@@ -1,4 +1,5 @@
 .btn {
     background-color: transparent;
     height: fit-content;
+    cursor: pointer;
 }
