@@ -14,18 +14,33 @@ page.blocks
 @import url(./blocks/container/container.css);
 
 /* components */
+/* button & icons */
 @import url(./blocks/btn/btn.css);
 @import url(./blocks/icon/icon.css);
 @import url(./blocks/icon/icon__type_edit.css);
 @import url(./blocks/icon/icon__type_add.css);
 @import url(./blocks/icon/icon__type_like.css);
+@import url(./blocks/icon/icon__type_close.css);
 
+/* cards */
 @import url(./blocks/cards/cards.css);
 @import url(./blocks/cards/__item/cards__item.css);
 @import url(./blocks/cards/__image/cards__image.css);
 @import url(./blocks/cards/__info/cards__info.css);
 @import url(./blocks/cards/__title/cards__title.css);
 @import url(./blocks/cards/__action/cards__action.css);
+
+/* form */
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__heading/form__heading.css);
+@import url(./blocks/form/__edit-profile/form__edit_profile.css);
+@import url(./blocks/form/__input-container/form__input-container.css);
+@import url(./blocks/form/__controls/form__controls.css);
+@import url(./blocks/form/__item/form__item.css);
+@import url(./blocks/form/__item/form__item_el_nama.css);
+@import url(./blocks/form/__item/form__item_el_tentang-saya.css);
+@import url(./blocks/form/__handlers/form__handlers.css);
+@import url(./blocks/form/__button/form__button.css);
 
 /* main.content */
 @import url(./blocks/content/content.css);
@@ -50,6 +65,11 @@ page.blocks
 /* section footer */
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
+
+/* popup */
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/popup_opened.css);
+@import url(./blocks/popup/__container/popup__container.css);
 
 /* media screen */
 @import url(./blocks/media/media.css);

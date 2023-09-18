@@ -39,7 +39,9 @@ nav,
 section,
 hr,
 span,
-button {
+button,
+input,
+fieldset {
     margin: 0;
     padding: 0;
     border: 0;
