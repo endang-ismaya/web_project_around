@@ -1,7 +1,7 @@
 .form__heading {
     display: inline-block;
     margin-top: 34px;
-    width: 330px;
+    width: fit-content;
     height: 23px;
     color: #000;
     font-size: 24px;

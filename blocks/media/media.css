@@ -51,6 +51,12 @@
         height: 50px;
     }
 
+    .icon__type_add:hover {
+        background: url(./../../images/icon/add-button-320p-hover.svg) no-repeat;
+        width: 282px;
+        height: 50px;
+    }
+
     .profile__about {
         font-size: 14px;
     }
@@ -70,5 +76,40 @@
     /* footer */
     .footer {
         margin: 36px 19px 36px 19px;
+    }
+
+    /* popup */
+    .popup {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -820%);
+    }
+
+    .popup__container {
+        width: 282px;
+        padding: 0 22px;
+    }
+
+    .form__edit-profile {
+        width: 238px;
+    }
+
+    .form__input-container {
+        width: 100%;
+    }
+
+    .form__item {
+        width: 100%;
+    }
+
+    .form__close {
+        position: absolute;
+        top: -36px;
+        right: -1px;
+    }
+
+    .icon__type_close {
+        width: 26px;
+        height: 26px;
     }
 }
