@@ -22,15 +22,16 @@
 
     /* profile */
     .profile {
+        margin-top: 42px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: center; */
-        margin-top: 42px;
+        justify-content: center;
         height: 286px;
     }
 
     .profile__info-container {
+        margin: 30px 0 36px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
