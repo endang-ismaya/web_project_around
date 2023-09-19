@@ -12,4 +12,63 @@
         width: 126px;
         height: 24px;
     }
+
+    /* content */
+
+    .content {
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+
+    /* profile */
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        margin-top: 42px;
+        height: 286px;
+    }
+
+    .profile__info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile__name {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        height: 22px;
+    }
+
+    .icon__type_add {
+        background: url(./../../images/icon/add-button-320p.svg) no-repeat;
+        width: 282px;
+        height: 50px;
+    }
+
+    .profile__about {
+        font-size: 14px;
+    }
+
+    .icon__type_edit {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* elements */
+    .elements {
+        margin-top: 36px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* footer */
+    .footer {
+        margin: 36px 19px 36px 19px;
+    }
 }
