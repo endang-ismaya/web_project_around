@@ -43,7 +43,7 @@ function handleInputCheckEmpty(e) {
     if (e.target.value.trim() === "") {
         btnFormSubmit.setAttribute("disabled", true);
     } else {
-        if (inputName.value !== "" && inputAbout !== "") {
+        if (inputName.value !== "" && inputAbout.value !== "") {
             if (btnFormSubmit.hasAttribute("disabled")) {
                 btnFormSubmit.removeAttribute("disabled");
             }
