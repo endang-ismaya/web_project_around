@@ -1,0 +1,5 @@
+.icon__type_like_active {
+    background: url(./../../images/icon/like-button-active.svg) no-repeat;
+    width: 21px;
+    height: 19px;
+}

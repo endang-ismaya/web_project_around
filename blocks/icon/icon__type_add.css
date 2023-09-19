@@ -3,3 +3,7 @@
     width: 150px;
     height: 50px;
 }
+
+.icon__type_add:hover {
+    background: url(./../../images/icon/add-button-hover.svg) no-repeat;
+}

@@ -22,6 +22,7 @@ page.blocks
 @import url(./blocks/icon/icon__type_add.css);
 @import url(./blocks/icon/icon__type_like.css);
 @import url(./blocks/icon/icon__type_close.css);
+@import url(./blocks/icon/icon__type_like_active.css);
 
 /* cards */
 @import url(./blocks/cards/cards.css);

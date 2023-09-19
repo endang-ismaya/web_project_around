@@ -3,3 +3,7 @@
     width: 40px;
     height: 40px;
 }
+
+.icon__type_close:hover {
+    background: url(./../../images/icon/close-button-hover.svg) no-repeat;
+}

@@ -3,3 +3,7 @@
     width: 24px;
     height: 24px;
 }
+
+.icon__type_edit:hover {
+    background: url(./../../images/icon/edit-button-hover.svg) no-repeat;
+}
