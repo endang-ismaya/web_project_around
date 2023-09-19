@@ -11,6 +11,7 @@
     font-weight: 400;
     line-height: normal;
     border-radius: 2px;
+    opacity: 1;
 }
 
 .form__button:disabled,
@@ -18,4 +19,8 @@
     background-color: #cccccc;
     color: #666666;
     cursor: default;
+}
+
+.form__button:hover {
+    opacity: 0.8;
 }
