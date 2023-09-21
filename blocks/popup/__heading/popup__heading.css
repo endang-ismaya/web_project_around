@@ -1,11 +1,9 @@
-.form__heading {
+.popup__heading {
     display: inline-block;
     margin-top: 34px;
     width: fit-content;
     height: 23px;
     color: #000;
     font-size: 24px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
 }

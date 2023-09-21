@@ -20,6 +20,8 @@ page.blocks
 @import url(./../blocks/button/__icon/button__icon_add.css);
 @import url(./../blocks/button/__icon/button__icon_like_inactive.css);
 @import url(./../blocks/button/__icon/button__icon_like_active.css);
+@import url(./../blocks/button/__type/button__type_submit.css);
+@import url(./../blocks/button/__icon/button__icon_close.css);
 
 /* cards */
 @import url(./../blocks/cards/cards.css);
@@ -31,15 +33,11 @@ page.blocks
 
 /* form */
 @import url(./../blocks/form/form.css);
-@import url(./../blocks/form/__heading/form__heading.css);
-@import url(./../blocks/form/__edit-profile/form__edit_profile.css);
 @import url(./../blocks/form/__input-container/form__input-container.css);
-@import url(./../blocks/form/__controls/form__controls.css);
 @import url(./../blocks/form/__item/form__item.css);
 @import url(./../blocks/form/__item/form__item_el_nama.css);
 @import url(./../blocks/form/__item/form__item_el_tentang-saya.css);
 @import url(./../blocks/form/__handlers/form__handlers.css);
-@import url(./../blocks/form/__button/form__button.css);
 @import url(./../blocks/form/__close/form__close.css);
 
 /* section header */
@@ -66,5 +64,7 @@ page.blocks
 
 /* popup */
 @import url(./../blocks/popup/popup.css);
-@import url(./../blocks/popup/popup_opened.css);
 @import url(./../blocks/popup/__container/popup__container.css);
+@import url(./../blocks/popup/__heading/popup__heading.css);
+@import url(./../blocks/popup/popup_opened.css);
+@import url(./../blocks/popup/__close/popup__close.css);

@@ -1,0 +1,11 @@
+.button__icon_close {
+    background: url(./../../../images/icon/close-button.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.button__icon_close:hover {
+    background: url(./../../../images/icon/close-button-hover.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+}

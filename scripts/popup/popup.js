@@ -1,16 +1,15 @@
 let btnEditProfile = document.querySelector('.profile__edit');
-let btnClosePopup = document.querySelector('.form__close');
+let btnClosePopup = document.querySelector('.popup__close');
 let popup = document.querySelector('.popup');
 let inputName = document.querySelector('.form__item_el_nama');
 let inputAbout = document.querySelector('.form__item_el_tentang-saya');
 let profileName = document.querySelector('.profile__name');
 let profileAbout = document.querySelector('.profile__about');
-let formEditProfile = document.querySelector('.form__edit-profile');
+let formEditProfile = document.querySelector('.form');
 
 // show edit profile
 function handleProfileFormShow() {
     popup.classList.add('popup_opened');
-    page.classList.add('page_overlay');
 
     // assign to inputs
     inputName.value = profileName.textContent;
@@ -20,7 +19,6 @@ function handleProfileFormShow() {
 // hide edit profile
 function handleProfileFormHide() {
     popup.classList.remove('popup_opened');
-    page.classList.remove('page_overlay');
 }
 
 // form
