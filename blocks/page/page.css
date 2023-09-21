@@ -53,8 +53,9 @@ body {
 
 .page {
     max-width: 1280px;
-    height: 100vh;
     margin: 0 auto;
-    font-family: "Inter", sans-serif;
+    padding: 0 200px;
+    font-family: 'Inter', sans-serif;
     color: #ffffff;
+    border: 1px solid blueviolet;
 }
