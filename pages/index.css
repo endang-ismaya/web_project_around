@@ -20,6 +20,7 @@ page.blocks
 @import url(./../blocks/button/__icon/button__icon_add.css);
 @import url(./../blocks/button/__icon/button__icon_like_inactive.css);
 @import url(./../blocks/button/__icon/button__icon_like_active.css);
+@import url(./../blocks/button/__type/button__type.css);
 @import url(./../blocks/button/__type/button__type_submit.css);
 @import url(./../blocks/button/__icon/button__icon_close.css);
 
@@ -38,6 +39,7 @@ page.blocks
 @import url(./../blocks/form/__item/form__item_el_nama.css);
 @import url(./../blocks/form/__item/form__item_el_tentang-saya.css);
 @import url(./../blocks/form/__handlers/form__handlers.css);
+@import url(./../blocks/form/__submit/form__submit.css);
 @import url(./../blocks/form/__close/form__close.css);
 
 /* section header */

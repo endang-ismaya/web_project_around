@@ -1,4 +1,4 @@
-.button__type_submit {
+.form__submit {
     width: 100%;
     height: 51px;
     margin-bottom: 36px;
@@ -13,13 +13,13 @@
     opacity: 1;
 }
 
-.button__type_submit:disabled,
-.button__type_submit[disabled] {
-    background-color: #cccccc;
-    color: #666666;
-    cursor: default;
+.form__submit:hover {
+    opacity: 0.8;
 }
 
-.button__type_submit:hover {
-    opacity: 0.8;
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+    .form__submit {
+        height: 46px;
+        margin-bottom: 25px;
+    }
 }
