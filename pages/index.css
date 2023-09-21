@@ -14,7 +14,9 @@ page.blocks
 
 /* components */
 /* button & icons */
-@import url(./../blocks/btn/btn.css);
+@import url(./../blocks/button/button.css);
+@import url(./../blocks/button/button__icon_edit.css);
+@import url(./../blocks/button/button__icon_add.css);
 @import url(./../blocks/icon/icon.css);
 @import url(./../blocks/icon/icon__type_edit.css);
 @import url(./../blocks/icon/icon__type_add.css);
