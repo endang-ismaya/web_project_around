@@ -1,0 +1,11 @@
+.button__icon_like_inactive {
+    background: url(./../../../images/icon/like-button.svg) no-repeat;
+    width: 21px;
+    height: 19px;
+}
+
+.button__icon_like_inactive:hover {
+    background: url(./../../../images/icon/like-button-hover.svg) no-repeat;
+    width: 21px;
+    height: 19px;
+}

@@ -1,0 +1,11 @@
+.button__icon_edit {
+    background: url(./../../../images/icon/edit-button.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.button__icon_edit:hover {
+    background: url(./../../../images/icon/edit-button-hover.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+}

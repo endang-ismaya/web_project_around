@@ -1,9 +1,0 @@
-.icon__type_like {
-    background: url(./../../images/icon/like-button.svg) no-repeat;
-    width: 21px;
-    height: 19px;
-}
-
-.icon__type_like:hover {
-    background: url(./../../images/icon/like-button-hover.svg) no-repeat;
-}

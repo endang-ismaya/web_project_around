@@ -1,0 +1,11 @@
+.button__icon_add {
+    background: url(./../../../images/icon/add-button.svg) no-repeat;
+    width: 150px;
+    height: 50px;
+}
+
+.button__icon_add:hover {
+    background: url(./../../../images/icon/add-button-hover.svg) no-repeat;
+    width: 150px;
+    height: 50px;
+}

@@ -15,14 +15,11 @@ page.blocks
 /* components */
 /* button & icons */
 @import url(./../blocks/button/button.css);
-@import url(./../blocks/button/button__icon_edit.css);
-@import url(./../blocks/button/button__icon_add.css);
-@import url(./../blocks/icon/icon.css);
-@import url(./../blocks/icon/icon__type_edit.css);
-@import url(./../blocks/icon/icon__type_add.css);
-@import url(./../blocks/icon/icon__type_like.css);
-@import url(./../blocks/icon/icon__type_close.css);
-@import url(./../blocks/icon/icon__type_like_active.css);
+@import url(./../blocks/button/__icon/button__icon.css);
+@import url(./../blocks/button/__icon/button__icon_edit.css);
+@import url(./../blocks/button/__icon/button__icon_add.css);
+@import url(./../blocks/button/__icon/button__icon_like_inactive.css);
+@import url(./../blocks/button/__icon/button__icon_like_active.css);
 
 /* cards */
 @import url(./../blocks/cards/cards.css);
@@ -59,7 +56,6 @@ page.blocks
 @import url(./../blocks/profile/__info/profile__info.css);
 @import url(./../blocks/profile/__name/profile__name.css);
 @import url(./../blocks/profile/__about/profile__about.css);
-@import url(./../blocks/profile/__action/profile__action.css);
 
 /* section elements */
 @import url(./../blocks/elements/elements.css);
