@@ -1,3 +1,4 @@
-/* .content {
-    border: 1px solid whitesmoke;
-} */
+.content {
+    max-width: 880px;
+    margin-top: 40px;
+}
