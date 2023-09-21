@@ -1,13 +1,11 @@
 let btnEditProfile = document.querySelector(".profile__edit");
 let btnClosePopup = document.querySelector(".form__close");
 let popup = document.querySelector(".popup");
-let page = document.querySelector(".page");
 let inputName = document.querySelector(".form__item_el_nama");
 let inputAbout = document.querySelector(".form__item_el_tentang-saya");
 let profileName = document.querySelector(".profile__name");
 let profileAbout = document.querySelector(".profile__about");
 let formEditProfile = document.querySelector(".form__edit-profile");
-let btnFormSubmit = document.querySelector(".form__button");
 
 // show edit profile
 function handleProfileFormShow() {
@@ -37,23 +35,6 @@ function handleProfileFormSubmit(evt) {
     // close the form
     handleProfileFormHide();
 }
-
-// check input is blank
-function handleInputCheckEmpty(e) {
-    if (e.target.value.trim() === "") {
-        btnFormSubmit.setAttribute("disabled", true);
-    } else {
-        if (inputName.value !== "" && inputAbout.value !== "") {
-            if (btnFormSubmit.hasAttribute("disabled")) {
-                btnFormSubmit.removeAttribute("disabled");
-            }
-        }
-    }
-}
-
-// check if name or about is blank
-inputName.addEventListener("keyup", handleInputCheckEmpty);
-inputAbout.addEventListener("keyup", handleInputCheckEmpty);
 
 // assign button
 btnEditProfile.addEventListener("click", handleProfileFormShow);
